@@ -86,7 +86,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-700">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://www.linkedin.com/in/silas-aigbe-8b506019b"
+              href="https://www.linkedin.com/in/silas-aigbe-8b506019b"target="_blank" rel="noopener noreferrer"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -94,7 +94,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#f333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/Nosakeys"
+              href="https://github.com/Nosakeys" target="_blank" rel="noopener noreferrer"
             >
               GitHub <FaGithub size={30} />
             </a>
@@ -102,7 +102,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1D9BF0]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://twitter.com/Nosakeys"
+              href="https://twitter.com/Nosakeys" target="_blank" rel="noopener noreferrer"
             >
               Twitter <FaTwitter size={30} /> 
             </a>
@@ -110,7 +110,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3b3736]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="mailto:silaskeys95@gmail.com"
+              href="mailto:silaskeys95@gmail.com" target="_blank" rel="noopener noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -118,9 +118,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#5e8b96]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://docs.google.com/document/d/1NgTzmbBmFB7FVv1VwrAGnbjzW8TU7Oir/edit?usp=sharing&ouid=110751000229778140854&rtpof=true&sd=true"
+              href="https://drive.google.com/file/d/1AYQwcxWJ2_nv9Vh7v-_J5MpgLtZ7_6_w/view?usp=sharing" target="_blank" rel="noopener noreferrer"
             >
-              Resume <BsFillPersonLinesFill size={30} />
+              Resume <BsFillPersonLinesFill size={30} /> 
             </a>
           </li>
           
