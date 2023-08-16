@@ -17,7 +17,7 @@ const App = () => {
       <Skills/>
       <Projects/>
       <Contact/>
-      <p className="text-gray-300 bg-[#0a192f] text-center">© {new Date().getFullYear()} Nosakeys</p>
+      <p className="text-gray-300  bg-[#0a192f] text-center">© Silas Aigbe. All right reserved.</p>
     </div>
   );
 };
