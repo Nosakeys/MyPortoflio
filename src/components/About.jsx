@@ -1,5 +1,4 @@
 import React from "react";
-import { BsCv } from "react-icons/bs";
 import { HiOutlineDocumentText } from "react-icons/hi";
 
 

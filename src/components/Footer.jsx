@@ -1,5 +1,5 @@
 import React from 'react'
-import {  FaGithub, FaLinkedin,FaTwitter,FaMailBulk } from "react-icons/fa";
+import {  FaGithub, FaLinkedin,FaTwitter} from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
