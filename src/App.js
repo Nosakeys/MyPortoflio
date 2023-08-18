@@ -5,7 +5,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 
 const App = () => {
@@ -17,7 +17,8 @@ const App = () => {
       <Skills/>
       <Projects/>
       <Contact/>
-      <p className="text-gray-300  bg-[#0a192f] text-center">© Silas Aigbe. All right reserved.</p>
+      <Footer/>
+      <p className="text-gray-300  bg-[#0a192f] hidden sm:flex justify-center">© Silas Aigbe. All Rights Reserved</p>
     </div>
   );
 };

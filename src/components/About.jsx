@@ -1,5 +1,6 @@
 import React from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsCv } from "react-icons/bs";
+import { HiOutlineDocumentText } from "react-icons/hi";
 
 
 const About = () => {
@@ -44,14 +45,16 @@ const About = () => {
             </p>
           </div>
         </div>
-      <button className="text-white py-3 px-4 flex items-center justify-end rounded-lg bg-[#5a3f2c] gap-4 sm:hidden ">
-      <BsFillPersonLinesFill size={26} />
+     <div className="-mt-2">
+     <button className="text-white py-3 px-4 flex items-center justify-center rounded-lg bg-[#5a3f2c] gap-4 sm:hidden">
+      <HiOutlineDocumentText size={28} />
       <a 
        href="https://drive.google.com/file/d/1C2upMTnl8XV-NGAhlMTLHnT490UUh5Kj/view?usp=sharing" target="_blank" rel="noopener noreferrer"
             >
             Resume
             </a> 
       </button>
+     </div>
       </div>
     </div>
   );
