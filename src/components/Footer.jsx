@@ -12,16 +12,16 @@ const Footer = () => {
         <ul>
           <li className='flex items-center justify-center gap-4'>
             <a className='text-gray-300' href="https://www.linkedin.com/in/silas-aigbe-8b506019b"target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={35} />
+            <FaLinkedin size={33} />
             </a>
             <a className='text-gray-300' href="https://github.com/Nosakeys"target="_blank" rel="noopener noreferrer">
-            <FaGithub size={35} />
+            <FaGithub size={33} />
             </a>
             <a className='text-gray-300' href="https://twitter.com/Nosakeys"  target="_blank" rel="noopener noreferrer">
-            <FaTwitter size={35} /> 
+            <FaTwitter size={33} /> 
             </a>
             <a className='text-gray-300'   href="mailto:silaskeys95@gmail.com"target="_blank" rel="noopener noreferrer">
-           <HiOutlineMail size={35} />
+           <HiOutlineMail size={33} />
             </a>
           </li>
         </ul>
