@@ -27,7 +27,7 @@ const Home = () => {
           opportunities to collaborate and innovate.
         </p>
         <div>
-          <button className="text-white group sm:border-[1px] py-4 px-4 sm:py-3 my-2 flex items-center hover:bg-[#5a3f2c] sm:hover:border-[#83573a] rounded-lg sm:rounded-[4px] sm:hover:rounded bg-gradient-to-r to-pink-900 from-amber-900">
+          <button className="text-white group sm:border-[1px] sm:border-red-400 py-4 px-4 sm:py-3 my-2 flex items-center hover:bg-[#5a3f2c] sm:hover:border-[#83573a] rounded-lg sm:rounded-[4px] sm:hover:rounded bg-gradient-to-r to-pink-900 from-amber-900">
             <Link to="projects" smooth={true} duration={500}>
               View Projects
             </Link>
