@@ -45,7 +45,7 @@ const About = () => {
           </div>
         </div>
      <div className="-mt-2">
-     <button className="text-white py-3 px-4 flex items-center justify-center rounded-lg bg-[#5a3f2c] gap-4 sm:hidden">
+     <button className="text-white py-3 px-4 flex items-center justify-center rounded-lg gap-4 sm:hidden bg-gradient-to-r to-pink-900 from-amber-900">
       <HiOutlineDocumentText size={28} />
       <a 
        href="https://drive.google.com/file/d/1C2upMTnl8XV-NGAhlMTLHnT490UUh5Kj/view?usp=sharing" target="_blank" rel="noopener noreferrer"
