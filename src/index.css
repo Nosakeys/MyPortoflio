@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,9 +10,13 @@
 
 
 
+body {
+    background-color: #0a192f !important
+}
 
 @layer base {
     body {
+
         @apply font-[Lato];
     }
     li {
