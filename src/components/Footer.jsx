@@ -4,7 +4,7 @@ import { HiOutlineMail } from "react-icons/hi";
 
 const Footer = () => {
   return (
-    <div className='pb-6 px-4 align-top overflow-hidden'>
+    <div className='pb-14 px-4 align-top overflow-hidden'>
     <div className='sm:hidden h-[20svh] border-y-[0.56px] border-pink-300 flex flex-col items-center justify-center gap-5 align-top overflow-hidden'>
       <div>
       <p className="text-gray-300 text-center">© Silas Aigbe, All Rights Reserved</p>
