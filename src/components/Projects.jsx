@@ -3,6 +3,7 @@ import working from "../assests/projects/workImg.jpeg";
 import realestate from "../assests/projects/realestate.jpg";
 import QuizGenius from "../assests/QuizGenius.png"
 
+
 const Projects = () => {
   return (
     <div
@@ -30,13 +31,13 @@ const Projects = () => {
                 MediCare App
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 hover:bg-[#a82424d2] bg-white text-gray-700  hover:text-white font-bold text-lg">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
@@ -54,13 +55,13 @@ const Projects = () => {
                 Quiz Genius
               </span>
               <div className="pt-8 text-center">
-                <a href="https://nosakeys.github.io/QuizGenius-main/">
+                <a href="https://nosakeys.github.io/QuizGenius-main/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Nosakeys/QuizGenius-main">
+                <a  href="https://github.com/Nosakeys/QuizGenius-main" target="_blank" rel="noopener noreferrer" > 
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
@@ -78,13 +79,13 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
@@ -102,13 +103,13 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
@@ -126,13 +127,13 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
@@ -150,13 +151,13 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>

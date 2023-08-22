@@ -6,7 +6,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-color: #0a192f !important */
+}
+footer {
+    background-color: #0a192f !important
 }
 
 
