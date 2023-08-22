@@ -1,6 +1,7 @@
 import React from "react";
 import working from "../assests/projects/workImg.jpeg";
 import realestate from "../assests/projects/realestate.jpg";
+import QuizGenius from "../assests/QuizGenius.png"
 
 const Projects = () => {
   return (
@@ -26,7 +27,7 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                MediCare App
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
@@ -44,22 +45,22 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realestate})` }}
+            style={{ backgroundImage: `url(${QuizGenius})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+              <span className="text-2xl font-bold text-white text-center tracking-wider">
+                Quiz Genius
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://nosakeys.github.io/QuizGenius-main/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Nosakeys/QuizGenius-main">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
