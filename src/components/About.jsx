@@ -48,7 +48,7 @@ const About = () => {
      <button className="text-white py-3 px-4 flex items-center justify-center rounded-lg gap-4 sm:hidden bg-gradient-to-r to-pink-900 from-amber-900">
       <HiOutlineDocumentText size={28} />
       <a 
-       href="https://drive.google.com/file/d/1EjHOyWbQfKRvd6Rpn5UUsjv3f2JYEInu/view?usp=sharing" target="_blank" rel="noopener noreferrer"
+       href="https://drive.google.com/file/d/1rdvfimP9BiefyH1dDKpec0yALmdDqHlV/view?usp=sharing" target="_blank" rel="noopener noreferrer"
             >
             Resume
             </a> 
