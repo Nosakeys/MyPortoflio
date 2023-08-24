@@ -2,6 +2,7 @@ import React from "react";
 import working from "../assests/projects/workImg.jpeg";
 import realestate from "../assests/projects/realestate.jpg";
 import QuizGenius from "../assests/QuizGenius.png"
+import wApp from "../assests/wApp.png"
 
 
 const Projects = () => {
@@ -39,30 +40,6 @@ const Projects = () => {
                 </a>
                 <a href="/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#a82424d2] hover:text-white">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${QuizGenius})` }}
-            className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white text-center tracking-wider">
-                Quiz Genius
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://nosakeys.github.io/QuizGenius-main/" target="_blank" rel="noopener noreferrer">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
-                    {" "}
-                    Demo
-                  </button>
-                </a>
-                <a  href="https://github.com/Nosakeys/QuizGenius-main" target="_blank" rel="noopener noreferrer" > 
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
                 </a>
@@ -142,22 +119,46 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${working})` }}
+            style={{ backgroundImage: `url(${wApp})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Weather App
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://nosakeys.github.io/weathe_app/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Nosakeys/weathe_app" target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${QuizGenius})` }}
+            className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white text-center tracking-wider">
+                Quiz Genius
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://nosakeys.github.io/QuizGenius-main/" target="_blank" rel="noopener noreferrer">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
+                    {" "}
+                    Demo
+                  </button>
+                </a>
+                <a  href="https://github.com/Nosakeys/QuizGenius-main" target="_blank" rel="noopener noreferrer" > 
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
