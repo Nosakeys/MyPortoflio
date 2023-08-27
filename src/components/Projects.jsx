@@ -3,6 +3,8 @@ import working from "../assests/projects/workImg.jpeg";
 import realestate from "../assests/projects/realestate.jpg";
 import QuizGenius from "../assests/QuizGenius.png"
 import wApp from "../assests/wApp.png"
+import easyBank from '../assests/Easybank.png'
+import Medicare from "../assests/IMG_7792.jpg"
 
 
 const Projects = () => {
@@ -23,13 +25,13 @@ const Projects = () => {
         <div className="grid  sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid items */}
           <div
-            style={{ backgroundImage: `url(${working})` }}
+            style={{ backgroundImage: `url(${Medicare})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                MediCare App
+                MediCare App is in progress
               </span>
               <div className="pt-8 text-center">
                 <a href="/" target="_blank" rel="noopener noreferrer">
@@ -38,7 +40,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Vpsalmuel/Medi-Care-App" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
@@ -46,12 +48,13 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div
+    
+          {/* <div
             style={{ backgroundImage: `url(${working})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            {/* <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
@@ -69,24 +72,24 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div>  */}
           <div
-            style={{ backgroundImage: `url(${working})` }}
+            style={{ backgroundImage: `url(${easyBank})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                EasyBank Landing Page
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://nosakeys.github.io/EasyBankLandingPage/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     {" "}
                     Demo
                   </button>
                 </a>
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Nosakeys/EasyBankLandingPage" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg  hover:bg-[#a82424d2] hover:text-white">
                     Code
                   </button>
@@ -94,12 +97,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${realestate})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
+            {/* <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
                 React JS Application
               </span>
@@ -117,7 +120,7 @@ const Projects = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */} 
           <div
             style={{ backgroundImage: `url(${wApp})` }}
             className=" shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
