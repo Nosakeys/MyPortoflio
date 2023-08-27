@@ -1,6 +1,4 @@
 import React from "react";
-import working from "../assests/projects/workImg.jpeg";
-import realestate from "../assests/projects/realestate.jpg";
 import QuizGenius from "../assests/QuizGenius.png"
 import wApp from "../assests/wApp.png"
 import easyBank from '../assests/Easybank.png'
