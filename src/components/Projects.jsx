@@ -29,10 +29,10 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                MediCare App is in progress
+                MediCare App
               </span>
               <div className="pt-8 text-center">
-                <a href="/" target="_blank" rel="noopener noreferrer">
+                <a href="https://medicare-smoky.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <button className="text-center rounded-lg px-4 py-3 m-2 hover:bg-[#a82424d2] bg-white text-gray-700  hover:text-white font-bold text-lg">
                     {" "}
                     Demo
