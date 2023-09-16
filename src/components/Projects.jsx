@@ -3,7 +3,7 @@ import QuizGenius from "../assests/QuizGenius.png"
 import wApp from "../assests/wApp.png"
 import easyBank from '../assests/Easybank.png'
 import Medicare from "../assests/IMG_7792.jpg"
-import DRStore from "../assests/Screenshot (7).png"
+import DRStore from "../assests/DroyalStore.png"
 
 
 const Projects = () => {
